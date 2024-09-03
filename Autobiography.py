@@ -3,7 +3,7 @@ import pandas as pd
 
 
 about_page = st.Page(
-    page="pages/about_me.py",
+    page="Streamlit/pages/about_me.py",
     title="About Me",
     icon="🤍",
     default=True,
@@ -11,13 +11,13 @@ about_page = st.Page(
 
 
 page_1 = st.Page(
-    page="pages/games.py",
+    page="Streamlit/pages/games.py",
     title="Games",
     icon="🎮",
 )
 
 page_2 = st.Page(
-    page="pages/music.py",
+    page="Streamlit/pages/music.py",
     title="Music",
     icon="🎧",
 )
