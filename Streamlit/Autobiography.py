@@ -29,7 +29,7 @@ pg = st.navigation(
  }   
 )
 
-st.image("assets/logo.png")
+st.logo("assets/logo.png")
 st.sidebar.text("made by Trish")
 
 pg.run()
