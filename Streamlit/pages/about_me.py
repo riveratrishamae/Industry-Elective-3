@@ -3,7 +3,7 @@ import pandas as pd
 
 col1, col2 = st.columns(2, gap="small",vertical_alignment="center")
 with col1:
-    st.image("./assets/profile.jpg", width=230)
+    st.image("Streamlit/assets/profile.jpg", width=230)
 with col2:
     st.title(":blue[Trisha Mae Rivera]", anchor=False, )
     st.write("**An :red[Information Technology] student at Cebu Institute of Technology University (CIT-U)**")
