@@ -29,7 +29,7 @@ pg = st.navigation(
  }   
 )
 
-st.logo("assets/logo.png")
+st.logo("Streamlit/assets/logo.png")
 st.sidebar.text("made by Trish")
 
 pg.run()
